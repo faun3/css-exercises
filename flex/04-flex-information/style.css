@@ -7,10 +7,18 @@ img {
   height: 100px;
 }
 
+.titleflex{
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   font-size: 36px;
+  flex: 0;
   font-weight: 900;
+  justify-self: center;
 }
+
 
 /* do not edit this footer */
 .footer {
@@ -23,4 +31,27 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.infobox{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.plant{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.plant img{
+  align-self: center;
+  flex: 0;
+}
+
+.plant .text{
+  align-self: center;
 }
