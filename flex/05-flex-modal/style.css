@@ -77,7 +77,9 @@ button.cancel {
   flex-flow: column nowrap;
 }
 
-.middle button{
-  flex: 0;
+.middle .header{
+  font-weight: bold;
   align-self: left;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
