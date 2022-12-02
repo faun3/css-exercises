@@ -96,3 +96,7 @@ a{
   margin-right: 15px;
   padding: 0px;
 }
+
+.footer * li a{
+  color: darkblue;
+}
